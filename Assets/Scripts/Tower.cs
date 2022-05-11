@@ -58,7 +58,7 @@ public class Tower : MonoBehaviour
             position.y = scaledY * 0.5f;
             mTransform.position = position;
 
-            mat.mainTextureScale = new Vector2(1, scaledY);
+            //mat.mainTextureScale = new Vector2(1, scaledY);
             height = newY;
         }
         else // game over

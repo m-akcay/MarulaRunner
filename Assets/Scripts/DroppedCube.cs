@@ -40,7 +40,7 @@ public class DroppedCube : MonoBehaviour
         transform.position = pos;
         var scale = transform.localScale;
         transform.localScale = new Vector3(scale.x, height * Tower.SCALE, scale.z);
-        mat.mainTextureScale = new Vector2(1, height * Tower.SCALE);
+        //mat.mainTextureScale = new Vector2(1, height * Tower.SCALE);
     }
 
     public static DroppedCube getAvailableCube()
